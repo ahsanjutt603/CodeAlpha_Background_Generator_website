@@ -9,11 +9,11 @@ document.getElementById('colorGenerateBtn').addEventListener('click', () => {
         '#6d41a1', //lightpurple
         '#ffe0e6', //pink
         '#c4e1c5', //lightgreen
+        '#D3D3D3', // Light Gray
+        '#A9A9A9', // Dark Gray
         '#b7e1e4', //coolblue
         '#cbdcf7', //lightblue
         '#808080', // Gray
-        '#D3D3D3', // Light Gray
-        '#A9A9A9', // Dark Gray
         '#008000', // Green
         '#0000FF', // Blue
         '#FFFF00', // Yellow
