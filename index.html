@@ -5,41 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Background Generator</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <main class="h-[100vh] bg-[#cbdcf7]">
+    <main>
 
         <!-- Header Section -->
         <section>
-            <nav class="containter flex justify-between mx-auto px-16 py-8">
-                <div class="font-bold text-2xl">
+            <nav class="navbar">
+                <div class="text-logo">
                     <h1>ColorsPlayground</h1>
                 </div>
-                <div class="space-x-4 font-semibold text-base">
-                    <a href="#">Home</a>
-                    <a href="#">Color Platte</a>
-                    <a href="#">Color Picker</a>
-                    <a href="#">About Us</a>
+                <div class="nav-links">
+                    <a class="nav-links-items" href="#">Home</a>
+                    <a class="nav-links-items" href="#">Color Platte</a>
+                    <a class="nav-links-items" href="#">Color Picker</a>
+                    <a class="nav-links-items" href="#">About Us</a>
                 </div>
             </nav>
         </section>
 
         <!-- Input Section -->
-        <section class="flex flex-col items-center space-y-12 my-24 ">
-            <div class="text-center space-y-6">
-                <h1 class="font-bold text-2xl">Never waste hours on finding the color</h1>
-                <h1 class="font-bold text-4xl">Just Click here & get color with hex code</h1>
+        <section class="input-section">
+            <div class="input-section-items">
+                <h1 class="headings">Never waste hours on finding the color</h1>
+                <h1 class="headings">Just Click here & get color with hex code</h1>
 
             </div>
-            <div class="flex flex-col mt-6 space-y-8">
-                <input type="button" class="py-2 px-4 rounded-full bg-[#E7EFF8] border border-[#E7EFF8] cursor-pointer hover:#E7EFF8 focus:outline-none"
+            <div class="input-section-items inputs">
+                <input type="button" class="generate-btn"
                 name="colorGenerateBtn" id="colorGenerateBtn" value="Generate Now">
 
-                <input type="text" class="py-2 px-3 text-center rounded-full focus:outline-none" name="colorCode" id="colorCode" value="#cbdcf7" readonly>
+                <input type="text" class="color-code" name="colorCode" id="colorCode" value="#cbdcf7" readonly>
             </div>
         </section>
 

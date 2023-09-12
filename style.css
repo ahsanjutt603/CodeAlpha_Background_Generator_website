@@ -1,9 +1,84 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: Oswald, sans-serif;
     box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    background: #cbdcf7;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+}
+
+.text-logo {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+
+}
+
+.nav-links {
+    margin-left: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+
+.nav-links-items {
+    margin-left: 1rem;
+    text-decoration: none;
+    color:black
+
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem 0;
+}
+
+.input-section-items {
+    margin-top: 3rem;
+
+}
+
+.headings {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.inputs {
+    display: flex;
+    margin-top: 1.5rem;
+    flex-direction: column;
+}
+
+.generate-btn {
+    margin-top: 2rem;
+    padding: 0.7rem 1rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    border: none;
+    background-color: #E7EFF8;
+
+}
+
+.color-code {
+    margin-top: 2rem;
+    padding: 0.6rem 0.75rem;
+    border: none;
+    border-radius: 9999px;
+    text-align: center;
 }
